@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700&display=swap');
+*{
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	/*background-color: RGB(13, 0, 43);*/
+	background-color: #0D0D2B;
+	color: white;
+	font-family: 'Oxanium', sans-serif;
+	
+}
+ img{
+ 	width: 95%;
+ }
+
+.promo{
+	border-style: none;
+	border-radius: 25px;
+	padding: 4px 12px 4px 4px;
+	width: 300px;
+	height: 32px;
+	background-color: #4B5563;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.promo h6{
+	display: inline-block;
+	border-radius: 20px;
+	font-size: 12px;
+	font-weight: 400;
+	background-color: white;
+	padding: 4px 16px;
+	color: #9CA3AF;
+}
+
+.first_section{
+	padding: 2em;
+}
+
+.fastest{
+	margin: 10px 0;
+	height: 188px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+.fastest h1{
+	font-size: 36px;
+}
+
+.fastest button{
+	margin-top: 10px;
+}
+
+
+.text_with_btn{
+	display: flex;
+	flex-direction: column;
+
+
+}
+
+.middle_men{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1em;
+}
+.chappo{
+	padding: 2em 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.chappo_ext{
+	height: 350px;
+}
+
+.chappo h2{
+	font-size: 36px;
+	font-weight: inherit;
+	margin-bottom: 20px;
+}
+
+.chappo p{
+	line-height: 1.625;
+	font-size: ;
+	color: #9CA3AF;
+	margin-bottom: 20px;
+}
+
+.earn{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+	height: 140px;
+
+}
+
+.earn h2{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px;
+}
+
+.earn h6{
+	color: #9CA3AF;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1rem;
+	text-align: center;
+}
+
+.card{
+	width: 94%;
+	border-color: black;
+	border-radius: 1rem; 
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	margin: 1em;
+	box-shadow: 0 0.7px 2px 0 rgb(0 0 0 / 0.1);
+}
+
+.card_one{
+	background-color: white;
+	justify-content: space-evenly;
+}
+
+.card_two{
+	background-color: white;
+	justify-content: space-evenly;
+}
+
+.card_three{
+	background-color: white;
+	justify-content: space-evenly;
+}
+
+.innercard{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.red_in_ic{
+	width: 80px;
+	height: 80px;
+}
+
+.ic_flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.up_font{
+	font-size: 32px;
+	font-family: 'Oxanium', sans-serif;
+	font-weight:700;
+	color: black;
+}
+
+.spans{
+	color: #9CA3AF;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Oxanium';
+}
+
+.change_font_color{
+	color: black;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+}
+
+.btn_upg{
+	background-color: white;
+	font-size: 2em;
+	border-radius: 50%;
+	padding: 10px;
+	height: 59.12px;
+	width: 59.12px;
+	border-style: solid;
+	border-color: lightgrey;
+	border-width: 2px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.top_button{
+	padding: 4px 16px;
+	font-size: 16px;
+	background-color: #2563EB;
+	border-radius: 1.5rem;
+	height: 40px;
+	width: 173.61px;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.con_card{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.first_img{
+	width: 95%;
+	height: 501.58px;
+}
+
+.bb_deal{
+	margin-left: 24px;
+	font-size: 12px;
+}
+
+.chnge_font{
+	font-size: 12px;
+	font-weight: 300;
+	color: #D1D5DB;
+}
+
+.arr{
+	color: #3671E9;
+	background-color: white ;
+	border-style:none;
+	border-radius: 50%;
+	height: 24px;
+	font-weight: 600;
+	width: 24px;
+	font-size: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin-left: 15px;
+}
+
+.mid_text h3{
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+}
+
+.mid_text h6{
+	color: #9CA3AF;
+	font-size: 12px;
+}
+
+.blur{
+	border-radius: 50%;
+	background-color: #252540;
+	padding: 10px;
+	height: 53.12px;
+	width: 53.12px;
+
+}
+
+.mid_flex{
+	display: flex;
+	flex-direction: row;
+	width: 260px;
+	justify-content: flex-start;
+
+}
+
+.move{
+	margin-left: 20px;
+}
+
+.chap_btn{	
+	padding: 4px 16px;
+	background-color: #3B82F6;
+	border-radius: 35px;
+	color: white;
+	font-size: 16px;
+}
+
+.first_chap_btn{
+	width: 112px;
+	height: 34px;
+}
+
+.center{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.white{
+	background-color: #F9FAFB;
+	border-style: none;
+}
+
+.black h1{
+	color: black;
+	font-size: 24px;
+	text-align: center;
+}
+
+.float{
+	position: absolute;
+}
+
+.relative{
+	position: relative;
+	top: -100px;
+}
+
+.add_px{
+	margin-bottom: 310px;
+}
+
+.input_line{
+	border-bottom: 1px solid #E0E0E0;
+	padding-bottom: 5px;
+	font-size: 20px;
+	color: #0D0D2B;
+	font-family: 'Oxanium', sans-serif;
+}
+
+.input_line::placeholder{
+	color: #0D0D2B;
+	font-weight: 300;
+}
+
+.white h1{
+	color: black;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.whit_marg_top{	
+	margin-top: 140px
+}
+
+.market{	
+	text-align: center;
+	padding-top: 3em;
+	padding-right:2em ;
+	padding-left: 2em;
+
+}
+.market h1{
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.mid_tier{
+	height: 100%;
+}
+
+.invest{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.addd{
+	height: 150px;
+}
+
+.invest h6{
+	color: #9CA3AF;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.lrn_btn{
+	width: 92px;
+	height: 32px;
+	font-family: 'Oxanium';
+	font-size: 12px;
+	padding: 8px 16px;
+}
+.tab_img{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 18px;
+}
+
+
+.tab_img_ext{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.some_margin{
+	margin-top: 50px;
+}
+
+.mining_card{
+	height: 248px;
+	border-style: solid;
+	border-width: 1px;
+	width: 90%;
+	border-radius: 20px 5px 5px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 2em 1em 1em;
+	background: url(img/newsletter-box.png);
+	background-position: stretch;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mining_card h1{
+	font-size: 24px;
+}
+
+.mine h6{
+	font-weight: 600;
+	color: white;
+	font-size: 12px;
+}
+
+.mining_card input{
+	background-color: #3671E9;
+	color: white;
+	padding-bottom: 5px;
+	border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+
+}
+
+.mining_card input::placeholder{
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Oxanium', sans-serif;
+}
+
+.subscribe{
+	font-size: 16px;
+	padding: 8px 16px;
+	color: black;
+	width: 104px;
+	height: 42px;
+	border-radius: 20px;
+
+}
+
+.i_love_flexing{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+
+footer{
+	margin: 5em 1em 1em;
+}
+
+.main_sec{
+	height: 900px;
+}
+
+.crap{
+	height: 5%;
+}
+
+.centered{
+	text-align: center
+}
+
+.quick{
+	height: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+
+.resource{
+	height: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.card_deck_con{
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.quick h3{
+	font-size: 20px;
+	color: white;
+
+}
+
+.quick h4, .resource h4{
+	font-size: 16px;
+}
+
+.quick h4,.resource h4{
+	color: E0E0E0;
+	font-weight: 400;
+}
+
+.sys h5{
+	font-size: 16px;
+	margin-top: 20px;
+	font-weight: 400;
+	font-family: 'Oxanium', sans-serif;
+}
+
+.resize{
+	width: 96px;
+	height: 64px;
+	margin-top: 20px;
+;
+}
+
+.card_deck{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	grid-gap: 20px;
+}
+
+.copyright{
+	padding-bottom: 50px;
+}
+
+.socials{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+.socials_res{
+	width: 18px;
+	height: 18px;
+}
+
+.socials_ret{
+	height: 20px;
+	width: 12px;
+}
+
+
+.calculate{
+	font-weight: 500;
+	margin-top: ;
+	padding: 4px 16px;
+	background-color: #3B82F6;
+	border-radius: 35px;
+	color: white;
+	font-size: 18px;
+	width: 144px;
+	height: 45px;
+	font-family: 'Oxanium', sans-serif;
+}
+
+.text_next{
+	font-size: 16px;
+	font-weight: 400;
+	color: #3B82F6;
+}
+
+.next_text{
+	font-weight: 700;
+	font-size: 32px;
+	color: black;
+	font-family: 'Oxanium', sans-serif;	
+}
+
+.next_span{
+	color: #3B82F6;
+}
+
+.reve{
+	font-size: 16px;
+	color: #6B7280;
+	font-weight: 400;
+
+}
+
+.marg_adj{
+	padding-bottom: 50px;
+}
