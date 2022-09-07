@@ -130,6 +130,10 @@ body{
 	box-shadow: 0 0.7px 2px 0 rgb(0 0 0 / 0.1);
 }
 
+.aaa{
+	margin: 6em 1em 2em;
+}
+
 .card_one{
 	background-color: white;
 	justify-content: space-evenly;
