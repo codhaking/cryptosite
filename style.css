@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700&display=swap');
+
+
 *{
 	border: 0;
 	margin: 0;
@@ -380,12 +382,12 @@ footer{
 .invest{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-evenly;
 
 }
 
 .addd{
-	height: 30vh;
+	height: 25vh;
 }
 
 .invest h6{
@@ -396,10 +398,11 @@ footer{
 
 .lrn_btn{
 	width: 92px;
-	height: 42px;
+	height: 34px;
 	font-family: 'Oxanium';
 	font-size: 12px;
 	padding: 8px 16px;
+	font-weight: 400;
 }
 .tab_img{
 	display: flex;
@@ -615,4 +618,13 @@ footer{
 
 .marg_adj{
 	padding-bottom: 50px;
+}
+
+
+.animate__animated.animate__zoomIn,
+.animate__animated.animate__fadeInDown,
+.animate__animated.animate__slideInUp,
+.animate__animated.animate__slideInLeft,
+.animate__animated.animate__fadeInUp{
+	--animate-duration: 3.5s;
 }
