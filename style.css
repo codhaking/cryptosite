@@ -387,7 +387,11 @@ footer{
 }
 
 .addd{
-	height: 25vh;
+	height: 200px;
+}
+
+.ad_height{
+	padding-bottom
 }
 
 .invest h6{
@@ -627,4 +631,16 @@ footer{
 .animate__animated.animate__slideInLeft,
 .animate__animated.animate__fadeInUp{
 	--animate-duration: 3.5s;
+}
+
+.ln_height{
+	line-height: 1rem;
+}
+
+.padding{ 
+	margin-top: 30px;
+}
+
+.pad{ 
+	margin-top: 15px;
 }
