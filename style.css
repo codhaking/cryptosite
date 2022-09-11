@@ -16,7 +16,7 @@ body{
 main{
 	background: url(img/hero-bg.png) repeat;
 	background-size: cover;
-	height: calc(100vh - 80px);
+/*	height: calc(100vh - 80px);*/
 }
 
  img{
@@ -151,7 +151,7 @@ a.active:hover{
 
 	nav ul li{
 		display: block;
-		margin: 50px 0;
+		margin: 20px 0;
 		line-height: 30px;
 	}
 
@@ -813,4 +813,11 @@ footer{
 
 .pad{ 
 	margin-top: 15px;
+}
+
+
+.test{
+	width: 100px;
+	height: 100px;
+	background: url(img/why-ribbon.png);
 }
